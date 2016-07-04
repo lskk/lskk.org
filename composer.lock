@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e14f057cfce03180014a6a75e38de6f",
-    "content-hash": "7d72dc63a3981fb6edb92f6786ba94b1",
+    "hash": "56e429ef760cbabcded5eeb57d38a427",
+    "content-hash": "f3f9804c391213cb2cabcc83d884edca",
     "packages": [
         {
             "name": "composer/installers",
@@ -560,6 +560,51 @@
                 "parser"
             ],
             "time": "2014-09-09 13:34:57"
+        },
+        {
+            "name": "drupal/bootstrap",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap",
+                "reference": "010eb711c21fea3e15f70ecb1c21254e28e85bc8"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta3+33-dev",
+                    "datestamp": "1467232139"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "markcarver",
+                    "homepage": "https://www.drupal.org/user/501638"
+                },
+                {
+                    "name": "neardark",
+                    "homepage": "https://www.drupal.org/user/661076"
+                },
+                {
+                    "name": "wundo",
+                    "homepage": "https://www.drupal.org/user/25523"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bootstrap"
+            },
+            "time": "2016-06-29 20:27:48"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4158,7 +4203,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/bootstrap": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
