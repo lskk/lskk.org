@@ -1,0 +1,14 @@
+name: "Custom Block module tests"
+type: module
+description: "Support module for custom block related testing."
+package: Testing
+# version: VERSION
+# core: 8.x
+dependencies:
+  - block_content
+
+# Information added by Drupal.org packaging script on 2016-06-15
+version: '8.1.3'
+core: '8.x'
+project: 'drupal'
+datestamp: 1466022365
